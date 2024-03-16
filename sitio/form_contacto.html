@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTMl</title>
+</head>
+<body>
+    <header>
+        <h2><strong>Ejemplo de Formularios de Contacto en HTML</strong></h2>
+    </header>
+    <main>
+        <form action="respuesta.html">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre y Apellido:</labeL>
+                <input name="nombre" type="text" size="50"> 
+                <br>
+                <label for="correo">Correo Electronico:</label>
+                <input name="correo" type="email">
+            </fieldset>
+            <fieldset>
+                <legend>Sobre la Corsada</legend>
+                <p>Lenguages de Interes</p>
+                <input type="checkbox" name="">
+                <label for="opcion1">Python</label>
+                <input type="checkbox" name="">
+                <label for="opcion2">C</label>
+                <input type="checkbox" name="">
+                <label for="opcion3">C++</label>
+                <br>
+                <br>
+                <label for="turno">Turno</label>
+                <select name="">
+                    <option value="valor1">Maniana</option>
+                    <option value="valor2">Tarde</option>
+                    <option value="valor3">Noche</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend for="estacion">Estacion Favorita del Anio</legend>
+                <input type="radio" name="estacion" value="1" checked>Verano
+                <input type="radio" name="estacion" value="2">Otonio
+                <input type="radio" name="estacion" value="3">Invierno
+                <input type="radio" name="estacion" value="4">Primavera
+            </fieldset>
+            <fieldset>
+                <legend>Acciones del Formulario.</legend>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="borrar datos">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
